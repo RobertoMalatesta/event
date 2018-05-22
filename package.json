@@ -1,0 +1,28 @@
+{
+  "name": "@simonwep/event-js",
+  "version": "0.0.1",
+  "description": "Very small and simple utility to bind Eventlistener to elements",
+  "main": "event.js",
+  "scripts": {
+    "build": "babel event.js --out-file event.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simonwep/event.git"
+  },
+  "keywords": [
+    "event",
+    "events"
+  ],
+  "author": "Simon Reinisch <toports@gmx.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Simonwep/event/issues"
+  },
+  "homepage": "https://github.com/Simonwep/event#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.4.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
